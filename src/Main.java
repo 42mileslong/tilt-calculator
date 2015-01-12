@@ -32,8 +32,8 @@ public class Main {
     }
 
     public static double calcTorque(double force, double xToPivot, double yToPivot) {
-        double angle = Math.sin(Math.atan2(xToPivot, yToPivot));
+        double angleSine = Math.sin(Math.atan2(xToPivot, yToPivot));
         double diagonalDist = Math.sqrt(Math.pow(xToPivot, 2) + Math.pow(yToPivot, 2));
-        return force * diagonalDist * angle;
+        return force * diagonalDist * angleSine;
     }
 }
