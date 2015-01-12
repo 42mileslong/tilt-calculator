@@ -1,0 +1,10 @@
+# Intellij
+
+*.xml
+*.name
+*.iml
+*.class
+
+# Java
+
+*.MF
